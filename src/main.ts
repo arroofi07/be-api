@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const corsOptions: CorsOptions = {
     // origin: 'http://localhost:5173',
-    origin: 'https://api-fe-seven.vercel.app/',
+    origin: 'https://api-fe-seven.vercel.app',
     methods: 'GET,POST,PUT,HEAD,PATCH,DELETE',
     credentials: true,
   };
